@@ -46,7 +46,7 @@ RSpec.describe ImdbService do
           expect(actual[:runtime]).to eq(130)
           expect(actual[:genres][0][:name]).to eq('Crime')
           expect(actual[:overview]).to eq("When a gunman takes five lives with six shots, all evidence points to the suspect in custody. On interrogation, the suspect offers up a single note: \"Get Jack Reacher!\" So begins an extraordinary chase for the truth, pitting Jack Reacher against an unexpected enemy, with a skill for violence and a secret to keep.")
-          expect(actual[:vote_count]).to eq(5306)
+          expect(actual[:vote_count]).to eq(5308)
         end
       end
     end
