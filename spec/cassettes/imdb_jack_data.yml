@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.themoviedb.org/3/movie/75780?api_key=6b310e0dcdbc8d375cce6ea3bf466eea
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.4.1
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Date:
+      - Mon, 12 Jul 2021 04:36:29 GMT
+      Server:
+      - openresty
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, HEAD, POST, PUT, DELETE, OPTIONS
+      Access-Control-Expose-Headers:
+      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
+        Content-Length, Content-Range
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - '08c16f9706a27f06d87e5321e922c8bec4ef1612'
+      X-Memc-Age:
+      - '17330'
+      X-Memc-Expires:
+      - '142'
+      Etag:
+      - W/"de63604f42d020273db7a454f994f657"
+      Vary:
+      - Accept-Encoding
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 48a6ccbb0ddb052ab512a3422295bd39.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - DEN50-C2
+      X-Amz-Cf-Id:
+      - 4fpTdK-f4crFfAHzS1Ef63sxGBFJ8xvcNvZWvYjC4CKHqeNTg3PeHg==
+    body:
+      encoding: ASCII-8BIT
+      string: '{"adult":false,"backdrop_path":"/k7h4RNAarfOrF2r2YMN0P2FQSr4.jpg","belongs_to_collection":{"id":403374,"name":"Jack
+        Reacher Collection","poster_path":"/7baSUtFKi8PQ9SLo6ECYBfAW2K8.jpg","backdrop_path":"/vViRXFnSyGJ2fzMbcc5sqTKswcd.jpg"},"budget":60000000,"genres":[{"id":80,"name":"Crime"},{"id":18,"name":"Drama"},{"id":53,"name":"Thriller"},{"id":28,"name":"Action"}],"homepage":"http://www.jackreachermovie.com/","id":75780,"imdb_id":"tt0790724","original_language":"en","original_title":"Jack
+        Reacher","overview":"When a gunman takes five lives with six shots, all evidence
+        points to the suspect in custody. On interrogation, the suspect offers up
+        a single note: \"Get Jack Reacher!\" So begins an extraordinary chase for
+        the truth, pitting Jack Reacher against an unexpected enemy, with a skill
+        for violence and a secret to keep.","popularity":43.086,"poster_path":"/zlyhKMi2aLk25nOHnNm43MpZMtQ.jpg","production_companies":[{"id":82819,"logo_path":"/5Z8WWr0Lf1tInVWwJsxPP0uMz9a.png","name":"Skydance
+        Media","origin_country":"US"},{"id":128585,"logo_path":null,"name":"H2L Media
+        \"AKA\" Mutual Film Company","origin_country":""},{"id":128586,"logo_path":null,"name":"H2L
+        Media Group","origin_country":""},{"id":21777,"logo_path":null,"name":"TC
+        Productions","origin_country":""},{"id":117362,"logo_path":null,"name":"Mutual
+        Films","origin_country":""},{"id":4,"logo_path":"/fycMZt242LVjagMByZOLUGbCvv3.png","name":"Paramount","origin_country":"US"},{"id":7036,"logo_path":"/javbyY0ZCvlFJtly3tpZqf2NwLX.png","name":"CJ
+        Entertainment","origin_country":"KR"}],"production_countries":[{"iso_3166_1":"US","name":"United
+        States of America"}],"release_date":"2012-12-20","revenue":218340595,"runtime":130,"spoken_languages":[{"english_name":"English","iso_639_1":"en","name":"English"}],"status":"Released","tagline":"The
+        Law Has Limits. He Does Not.","title":"Jack Reacher","video":false,"vote_average":6.5,"vote_count":5306}'
+  recorded_at: Mon, 12 Jul 2021 04:36:29 GMT
+recorded_with: VCR 6.0.0
