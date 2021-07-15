@@ -103,7 +103,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     address:               "smtp.gmail.com",
     port:                  587,
-    user_name:            'viewing.party.turing,
+    user_name:            'viewing.party.turing',
     password:              pass,
     authentication:        "plain",
     enable_starttls_auto:  true
