@@ -99,12 +99,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: host }
 
   # SMTP settings for gmail
+  pass = ENV['GMAIL_PASS']
   config.action_mailer.smtp_settings = {
-    :address              => "smtp.gmail.com",
-    :port                 => 587,
-    :user_name            => <'viewing.party.turing'>,
-    :password             => <ENV['GMAIL_PASS']>,
-    :authentication       => "plain",
-    :enable_starttls_auto => true
+    address:               "smtp.gmail.com",
+    port:                  587,
+    user_name:            'viewing.party.turing',
+    password:              pass,
+    authentication:        "plain",
+    enable_starttls_auto:  true
   }
 end
