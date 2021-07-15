@@ -20,13 +20,13 @@ gem 'bootsnap'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
-gem 'faker'
+gem 'faraday'
 
 group :development, :test do
   gem 'pry'
   gem 'travis'
   gem 'byebug'
-  gem 'faraday'
+  gem 'faker'
 end
 
 group :development do
