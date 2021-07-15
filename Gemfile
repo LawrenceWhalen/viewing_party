@@ -20,6 +20,7 @@ gem 'bootsnap'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
+gem 'faker'
 
 group :development, :test do
   gem 'pry'
@@ -44,7 +45,6 @@ group :test do
   gem 'database_cleaner'
   gem 'webmock'
   gem 'vcr'
-  gem 'faker'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
