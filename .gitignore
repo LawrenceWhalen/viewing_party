@@ -24,5 +24,4 @@
 /config/application.yml
 
 
-# vcr stuff
-/spec/cassettes
+
