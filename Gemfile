@@ -20,19 +20,19 @@ gem 'bootsnap'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
-gem 'faker'
+  gem 'faraday'
 
 group :development, :test do
   gem 'pry'
   gem 'travis'
   gem 'byebug'
-  gem 'faraday'
 end
 
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rubocop-rails'
+  gem 'faker'
 end
 
 group :test do
