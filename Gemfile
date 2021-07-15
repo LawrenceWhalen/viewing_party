@@ -20,6 +20,7 @@ gem 'bootsnap'
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
 gem 'jwt'
+gem 'faraday'
 
 group :development, :test do
   gem 'pry'
