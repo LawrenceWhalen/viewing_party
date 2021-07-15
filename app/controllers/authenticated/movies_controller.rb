@@ -8,6 +8,5 @@ class Authenticated::MoviesController < Authenticated::BaseController
     @movie = MovieFacade.movie_data_results(params[:id])
     @cast = MovieFacade.movie_cast_results(params[:id])
     @reviews = MovieFacade.movie_review_results(params[:id])
-
   end
 end
