@@ -25,6 +25,7 @@ group :development, :test do
   gem 'pry'
   gem 'travis'
   gem 'byebug'
+  gem 'faraday'
 end
 
 group :development do
